@@ -23,8 +23,8 @@ abstract=dataset.iloc[:,5].values.tolist()
 
 print (title[:10]) #first 10 titles
 print (abstract[0][:200]) #first 200 characters in first synopses (for 'The Godfather')
-print
-print
+#print
+#print
 
 # load nltk's English stopwords as variable called 'stopwords'
 stopwords = nltk.corpus.stopwords.words('english')
