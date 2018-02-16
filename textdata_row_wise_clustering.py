@@ -523,10 +523,7 @@ cluster_names = {0: 'information, general, results, experiments, using, provided
                  5: 'algoritm, time, efficient, computationally, improvement, results',
                  6: 'learning, structure, functions, modeling, problem, method',
                  7: 'computaitonally, set, studied, many, general, approach',
-                 8: 'functions, using, provided, results, based, proposed'}
-
-
-#some ipython magic to show the matplotlib plots inline
+                 8: 'functions, using, provided, results, based, proposed'
 
 
 #create data frame that has the result of the MDS plus the cluster numbers and titles
