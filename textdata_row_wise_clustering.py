@@ -34,7 +34,7 @@ print (stopwords[:10])
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
-# here I define a tokenizer and stemmer which returns the set of stems in the text that it is passed
+# here I define a tokenizer and stemmer which returns the set of stems in the text that it is passed.
 
 def tokenize_and_stem(text):
     # first tokenizing by sentence, then by word to ensure that punctuation is caught as it's own token
