@@ -122,7 +122,7 @@ import numpy as np
 
 print(__doc__)
 
-# Generating the sample data from make_blobs
+# Generating the sample data from make_blobs.
 # This particular setting has one distinct cluster and 3 clusters placed close
 # together.
 X, y = make_blobs(n_samples=500,
