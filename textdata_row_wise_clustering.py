@@ -22,7 +22,7 @@ keywords=dataset.iloc[:,2].values.tolist()
 abstract=dataset.iloc[:,5].values.tolist()
 
 print (title[:10]) #first 10 titles
-print (abstract[0][:200]) #first 200 characters in first synopses (for 'The Godfather') ..
+print (abstract[0][:200]) #first 200 characters in first synopses (for 'The Godfather') 
 
 
 
