@@ -10,7 +10,7 @@ from __future__ import print_function
 import nltk
 import re
 import os
-import codecs
+import codecs.
 from sklearn import feature_extraction
 import numpy as np 
 import matplotlib.pyplot as plt
