@@ -8,7 +8,7 @@ Created on Wed Jan 24 22:04:38 2018
 from __future__ import print_function
 #import mpld3
 import nltk
-import re.
+import re
 import os
 import codecs
 from sklearn import feature_extraction
