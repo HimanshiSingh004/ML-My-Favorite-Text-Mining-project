@@ -12,7 +12,7 @@ import re
 import os
 import codecs
 from sklearn import feature_extraction
-import numpy as np 
+import numpy as   np 
 import matplotlib.pyplot as plt
 import pandas as pd
 os.chdir("f:/datafiles")  
