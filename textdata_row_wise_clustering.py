@@ -29,7 +29,7 @@ print (abstract[0][:200]) #first 200 characters in first synopses (for 'The Godf
 stopwords = nltk.corpus.stopwords.words('english')
 print (stopwords[:10])
 
-# load nltk's SnowballStemmer as variabled 'stemmer'
+# load nltk's SnowballStemmer as variabled 'stemmer'.
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
