@@ -77,7 +77,7 @@ tfidf_vectorizer = TfidfVectorizer(max_df=0.6, max_features=200000,
                                  min_df=0.2, stop_words='english',
                                  use_idf=True, tokenizer=tokenize_and_stem, ngram_range=(1,3))
 
-tfidf_matrix = tfidf_vectorizer.fit_transform(abstract) #fit the vectorizer to synopses
+tfidf_matrix = tfidf_vectorizer.fit_transform(abstract) #fit the vectorizer to synopses.
 
 print(tfidf_matrix.shape)
 
