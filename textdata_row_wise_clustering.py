@@ -141,7 +141,7 @@ for n_clusters in range_n_clusters:
 
     # The 1st subplot is the silhouette plot
     # The silhouette coefficient can range from -1, 1 but in this example all
-    # lie within [-0.1, 1]
+    #. lie within [-0.1, 1]
     ax1.set_xlim([-0.1, 1])
     # The (n_clusters+1)*10 is for inserting blank space between silhouette
     # plots of individual clusters, to demarcate them clearly.
