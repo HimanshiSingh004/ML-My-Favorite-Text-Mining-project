@@ -29,14 +29,14 @@ print (abstract[0][:200]) #first 200 characters in first synopses (for 'The Godf
 stopwords = nltk.corpus.stopwords.words('english')
 print (stopwords[:10])
 
-# load nltk's SnowballStemmer as variabled 'stemmer'.
+# load nltk's SnowballStemmer as variabled 'stemmer'
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
 # here we define a tokenizer and stemmer which returns the set of stems in the text that it is passed.
 
 def tokenize_and_stem(text):
-    # first tokenizing by sentence, then by word to ensure that punctuation is caught as it's own token
+    # first tokenizing by sentence and then by word to ensure that punctuation is caught as it's own token
     tokens = [word for sent in nltk.sent_tokenize(text) for word in nltk.word_tokenize(sent)]
     filtered_tokens = []
     # filtering out any tokens not containing letters (e.g. numeric tokens, raw punctuation)
